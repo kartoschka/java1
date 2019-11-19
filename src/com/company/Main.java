@@ -23,8 +23,6 @@ public class Main {
         }
     }
 
-    private static void ex_
-
     private static void ex_numberIsEvenOdd() {
         System.out.println("Put a number:");
         if(new Scanner(System.in).nextInt() % 2 == 0) {
@@ -88,7 +86,6 @@ public class Main {
     }
 
     private static double getNumber() {
-        double input = new Scanner(System.in).nextDouble();
-        return input;
+        return new Scanner(System.in).nextDouble();
     }
 }
